@@ -187,8 +187,6 @@ proyecto_tareas/
 
 ---
 
-## 📄 Licencia
-
 🎓 Información del Proyecto
 Universidad: [Nombre de tu Universidad aquí]
 
