@@ -180,6 +180,16 @@ proyecto_tareas/
 - `DELETE /api/tareas/:id` - Eliminar tarea
 
 ---
+## 🚀 Endpoints de la API
+
+| Endpoint | Método | Descripción |
+| :--- | :--- | :--- |
+| `/api/auth/login` | **POST** | Autentica al usuario y devuelve un token de acceso |
+| `/api/auth/register`| **POST** | Registra un nuevo usuario en el sistema |
+| `/api/tareas` | **GET** | Obtiene la lista completa de tareas del usuario |
+| `/api/tareas` | **POST** | Crea una nueva tarea en la base de datos |
+| `/api/tareas/:id` | **PUT** | Actualiza el estado o contenido de una tarea específica |
+| `/api/tareas/:id` | **DELETE** | Elimina permanentemente una tarea por su ID |
 
 ## 👨‍💻 Autor
 
