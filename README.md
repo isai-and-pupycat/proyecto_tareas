@@ -183,7 +183,7 @@ proyecto_tareas/
 
 ## 👨‍💻 Autor
 
-**Isai and Pupycat** - [GitHub](https://github.com/isai-and-pupycat)
+**Isai rosas canto** - [GitHub](https://github.com/isai-and-pupycat)
 
 ---
 
