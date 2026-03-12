@@ -189,4 +189,7 @@ proyecto_tareas/
 
 ## 📄 Licencia
 
-Este proyecto está bajo licencia MIT. Consulta el archivo LICENSE para más detalles.
+🎓 Información del Proyecto
+Universidad: [Nombre de tu Universidad aquí]
+
+Desarrollador: Isai Rosas Canto Fecha: 12 de marzo de 2026                             
