@@ -183,7 +183,7 @@ const Periodos: React.FC = () => {
         <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-500">Planeacion</p>
-            <h2 className="mt-3 text-3xl font-semibold tracking-[-0.05em] text-slate-900">Periodos acadÃ©micos</h2>
+            <h2 className="mt-3 text-3xl font-semibold tracking-[-0.05em] text-slate-900">Periodos académicos</h2>
           </div>
           <div className="inline-flex rounded-full border border-sky-100 bg-sky-50 px-4 py-2 text-sm font-semibold text-sky-700">
             Total: {periodos.length}
@@ -193,7 +193,7 @@ const Periodos: React.FC = () => {
         <div className="grid gap-4">
           {periodos.length === 0 ? (
             <div className="rounded-[1.4rem] border border-dashed border-slate-300 bg-slate-50 p-8 text-center text-slate-500">
-              No hay periodos registrados todavÃ­a.
+              No hay periodos registrados todavía.
             </div>
           ) : (
             periodos.map((periodo) => (
@@ -265,11 +265,11 @@ const validatePeriodoForm = (form: { nombre: string; fechaInicio: string; fechaF
   }
 
   if (!isValidDateInput(form.fechaInicio)) {
-    return 'La fecha de inicio no es vÃ¡lida.';
+    return 'La fecha de inicio no es válida.';
   }
 
   if (!isValidDateInput(form.fechaFin)) {
-    return 'La fecha de fin no es vÃ¡lida.';
+    return 'La fecha de fin no es válida.';
   }
 
   if (form.fechaFin < form.fechaInicio) {
